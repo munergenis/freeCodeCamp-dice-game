@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
 *,
 *::before,
@@ -24,7 +25,7 @@
 
 body {
   background-color: var(--dark-grey);
-  font-family: Roboto;
+  font-family: Poppins;
 }
 
 header {
@@ -33,6 +34,7 @@ header {
 }
 
 h1 {
+  font-family: Rowdies;
   font-size: 2.5rem;
   margin: 25px 0;
 }
@@ -75,6 +77,12 @@ main {
 }
 
 .die {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Rowdies;
+
   width: 40px;
   height: 40px;
   text-align: center;
@@ -122,9 +130,9 @@ input[type="radio"]:disabled + label {
   height: 30px;
   margin: 10px 0 10px 0.5rem;
   color: var(--black);
-  font-family: Poppins;
-  font-weight: bold;
-  font-size: 0.675em;
+  font-family: Rowdies;
+  font-weight: lighter;
+  font-size: 0.75em;
   background-color: var(--gold);
   background-image: linear-gradient(var(--golden-yellow), var(--orange));
   /* border-color: var(--gold); */
